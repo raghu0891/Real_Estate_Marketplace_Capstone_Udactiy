@@ -1,7 +1,9 @@
 # Capstone: Real Estate Marketplace 
 
 ## Concept and explanation
-Capstone Project for Blockchain NanoDegree, it requires to mint own tokens to represent the title of the properties. Before minting the token, the owner needs to verify she/she owns the property. A zk-SNARKs (zoKrates) mechanism will be used to create a verification system which can prove the ownership of title to the property without revealing that specific information on the property.
+Capstone Project for Blockchain NanoDegree, it requires to mint own tokens to represent the title of the properties. 
+Before minting the token, the owner needs to verify the person owns the property. 
+A zk-SNARKs (zoKrates) mechanism will be used to create a verification system which can prove the ownership of title to the property without revealing that specific information on the property.
 Once the token has been verified it will be placed on a blockchain market place (OpenSea) for others to purchase.
 
 ### Prerequisites (also for for generating the proof.json)
@@ -16,7 +18,7 @@ Once the token has been verified it will be placed on a blockchain market place 
 Clone this repository:
 
 ```
-git clone https://github.com/raghu0891/Blockchain-Capstone-Real-Estate-Marketplace.git
+git clone https://github.com/raghu0891/Real_Estate_Marketplace_Capstone_Udactiy.git
 cd eth-contracts
 npm init
 ```
@@ -51,7 +53,9 @@ truffle migrate --reset
 
 ## Generating the proof from zokrates
 1. Run the zokrates docker image
-`docker run -v <path_to_zokrates_code>:/home/zokrates/code -ti zokrates/zokrates /bin/bash`
+```
+docker run -v <path_to_zokrates_code>:/home/zokrates/code -ti zokrates/zokrates /bin/bash
+```
 
 2. Compile the program 
 ```
@@ -60,16 +64,24 @@ cd code
 ```
 
 3. Generate the trusted setup
-`~/zokrates setup -s pghr13 -b libsnark`
+```
+~/zokrates setup -s pghr13 -b libsnark
+```
 
 4. Compute witness for your desired pair of number and it's square 
-`~/zokrates compute-witness -a number square`
+```
+~/zokrates compute-witness -a number square
+```
 
 5. Generate proof
-`~/zokrates generate-proof -s pghr13 -b libsnark`
+```
+~/zokrates generate-proof -s pghr13 -b libsnark
+```
 
 6. Generate verifier.sol
-`~/zokrates export-verifier -s pghr13	`
+```
+~/zokrates export-verifier -s pghr13
+```
 
 
 ## Built With
