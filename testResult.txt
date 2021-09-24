@@ -1,0 +1,36 @@
+Using network 'development'.
+
+
+Compiling your contracts...
+===========================
+- Fetching solc version list from solc-bin. Attempt #1
+> Everything is up to date, there is nothing to compile.
+
+
+[0m[0m
+[0m  Contract: TestERC721Mintable[0m
+[0m    match erc721 spec[0m
+https://s3-us-west-2.amazonaws.com/udacity-blockchain/capstone/0
+    [32m  ✓[0m[90m should return full tokenURI[0m
+    [32m  ✓[0m[90m should return total supply[0m
+    [32m  ✓[0m[90m should get token balance[0m
+    [32m  ✓[0m[90m should return token uri[0m
+    [32m  ✓[0m[90m should transfer token from one owner to another[0m[31m (110ms)[0m
+[0m    have ownership properties[0m
+    [32m  ✓[0m[90m should fail when minting when address is not contract owner[0m[33m (74ms)[0m
+    [32m  ✓[0m[90m should return contract owner[0m
+
+[0m  Contract: Verifier[0m
+[0m    Test verification[0m
+    [32m  ✓[0m[90m mintERC721[0m[31m (4415ms)[0m
+    [32m  ✓[0m[90m Mint token with same solution[0m[31m (5267ms)[0m
+
+[0m  Contract: Verifier[0m
+[0m    Test verification with correct proof[0m
+    [32m  ✓[0m[90m correct proof[0m[31m (2001ms)[0m
+[0m    Test verification with incorrect proof[0m
+    [32m  ✓[0m[90m incorrect proof[0m[31m (1514ms)[0m
+
+
+[92m [0m[32m 11 passing[0m[90m (20s)[0m
+
