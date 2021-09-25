@@ -31,5 +31,4 @@ Luxury_home_purchase_txn:
 https://rinkeby.etherscan.io/tx/0x54adb4378f41ab6f587627916b6d82ffd19f6cb2916c51e76e1070a36f85d0b3
 
 
-URL StoreFront of opensea Marketplace:
-https://testnets.opensea.io/assets/iret-erc721mintabletoken-v2
+
