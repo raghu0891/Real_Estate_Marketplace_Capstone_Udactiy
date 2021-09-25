@@ -1,5 +1,9 @@
 IRET_ERC721MintableToken V2
 
+Contract with which the tokens were minted:
+0x13bb605e9a6de78efe82b5b66924298c8941f2b4
+
+
 Minted Tokens using Owner1:
  0xad586e495a8c223466082e05f00f1fd691df361b7bb8f5e07895c8483a4329c0
  0xba95604c120708dd2550f6ac046379b2fe41cefce7a1bca266be2c38afb295b7
@@ -25,3 +29,7 @@ https://rinkeby.etherscan.io/tx/0x17ace1ea6d188d114c755a6efabd4aad092f19c29533b5
 
 Luxury_home_purchase_txn:
 https://rinkeby.etherscan.io/tx/0x54adb4378f41ab6f587627916b6d82ffd19f6cb2916c51e76e1070a36f85d0b3
+
+
+URL StoreFront of opensea Marketplace:
+https://testnets.opensea.io/assets/iret-erc721mintabletoken-v2
