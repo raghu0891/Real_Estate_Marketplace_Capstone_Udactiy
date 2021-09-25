@@ -82,7 +82,22 @@ cd code
 ```
 ~/zokrates export-verifier -s pghr13
 ```
+##Contract Address
+```
+0x13bb605e9a6de78efe82b5b66924298c8941f2b4
+```
 
+##Contract's ABI:
+```
+Contract's SolnSquareVerifier ABI is provided in 'SolnSquareVerifierABI.txt'
+```
+
+##URL Link of opensea market Storefront:
+```
+https://testnets.opensea.io/assets/iret-erc721mintabletoken-v2
+```
+##Artifacts:
+In the artifacts folder the screenshot image pertaining to the tokens, test result file, ABI of the contract are provided.
 
 ## Built With
 ```
